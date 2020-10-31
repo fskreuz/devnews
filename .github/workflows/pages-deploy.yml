@@ -1,0 +1,18 @@
+name: Deploy to github pages
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  pages-deploy:
+    name: Deploying to Github Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js for use with actions
+        uses: actions/setup-node@v1
+        with:
+          node-version:  14.x
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: Run deploy script
+        run: ./deploy.sh

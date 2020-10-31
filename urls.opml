@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Dev News 💻</title>
+    <ownerid>https://fskreuz.github.io/devnews</ownerid>
+  </head>
+  <body>
+    <outline text="Dev News 💻" title="Dev News 💻">
+      <outline type="rss" text="Lobsters" title="Lobsters" xmlUrl="https://lobste.rs/rss" htmlUrl="https://lobste.rs" />
+      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com" />
+      <outline type="rss" text="DEV Community" title="DEV Community" xmlUrl="https://dev.to/feed" htmlUrl="https://dev.to" />
+      <outline type="rss" text="CSS-Tricks" title="CSS-Tricks" xmlUrl="https://css-tricks.com/feed/" htmlUrl="https://css-tricks.com" />
+      <outline type="rss" text="Smashing Magazine" title="Smashing Magazine" xmlUrl="https://www.smashingmagazine.com/feed" htmlUrl="https://www.smashingmagazine.com" />
+      <outline type="rss" text="r/programming" title="r/programming" xmlUrl="https://www.reddit.com/r/programming.rss" htmlUrl="https://www.reddit.com/r/programming" />
+      <outline type="rss" text="Programming on Medium" title="Programming on Medium" xmlUrl="https://medium.com/feed/topic/programming" htmlUrl="https://medium.com/topic/programming" />
+      <outline type="rss" text="Phoronix" title="Phoronix" xmlUrl="https://www.phoronix.com/rss.php" htmlUrl="https://www.phoronix.com" />
+    </outline>
+  </body>
+</opml>
